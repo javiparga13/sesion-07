@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+      --bs-body-font-family: 'Inconsolata', monospace;
+}
+
+html, body{
+    min-height: 100%;
+}
+
+h1 span:first-child{
+    font-weight: 600;
+    color: rgb(247, 3, 117);
+}
+
+a{
+    color: rgb(247, 3, 117);
+    text-decoration: none;
+}
